@@ -73,7 +73,7 @@ int main()
             operand1 = pop(&s1);
             operand2 = pop(&s1);
             if(ch[i] == '+'){
-                opt = operand2 + operand1;
+                opt += operand2 + operand1;
             }else if(ch[i] == '-'){
                 //printf("%d %d",operand1,operand2);
                 opt = operand1 - operand2;
